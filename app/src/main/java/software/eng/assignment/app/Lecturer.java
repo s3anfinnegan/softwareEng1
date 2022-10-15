@@ -56,10 +56,10 @@ public class Lecturer {
     }
 
     //working on
-    public ArrayList<Module> getModules() {
+    public ArrayList<Modules> getModules() {
         return modules;
     }
-    public void setModules(ArrayList<Module> modules) {
+    public void setModules(ArrayList<Modules> modules) {
         this.modules = modules;
     }
 

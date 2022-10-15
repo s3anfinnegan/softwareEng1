@@ -13,7 +13,7 @@ public class Student {
     public int studentID;
     public String username;
     public Programme courses;
-    public ArrayList<Module> modules;
+    public ArrayList<Modules> modules;
 
 
     public Student(String name, int age, DateTime dob, int studentID) {
