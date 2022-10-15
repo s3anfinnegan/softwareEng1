@@ -55,5 +55,20 @@ public class Student {
     public String getUsername() {
         return username;
     }
+// set modules and set courses
+    public ArrayList<Modules> getModuleList() {
+        return sModuleList;
+    }
+    public void setModuleList(ArrayList<Modules> sModuleList) {
+        this.sModuleList = sModuleList;
+    }
+    public Programme getCourses() {
+        return sCourses;
+    }
+    public void setCourses(Programme sCourses) {
+        this.sCourses = sCourses;
+    }
+
+}
 
 }
