@@ -12,7 +12,7 @@ public class Lecturer {
     public DateTime dob;
     public int lecturerID;
     public String username;
-    public ArrayList<Module> modules;
+    public ArrayList<Modules> modules;
 
 
     public Lecturer(String lecturer, int age, DateTime dob, int lecturerID) {
