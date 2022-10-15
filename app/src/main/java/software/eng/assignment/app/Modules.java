@@ -1,14 +1,14 @@
 /**package org.example;
 import java.util.ArrayList;
 
-public class Module {
+public class Modules {
 
     public String moduleName;
     public String moduleID;
     public ArrayList<Student> studentList;
     public Lecturer lecturer;
 
-    public Module(String moduleName, String moduleID) {
+    public Modules(String moduleName, String moduleID) {
         this.moduleName = moduleName;
         this.moduleID = moduleID;
     }

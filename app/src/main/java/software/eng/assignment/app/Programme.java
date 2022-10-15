@@ -8,7 +8,7 @@ public class Programme {
 
     public String courseName;
     public ArrayList<Student> studentList;
-    public ArrayList<Module> moduleList;
+    public ArrayList<Modules> moduleList;
     public DateTime startDate;
     public DateTime endDate;
 
