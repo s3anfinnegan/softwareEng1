@@ -13,7 +13,7 @@ public class Student {
     public int studentID;
     public String username;
     public Programme courses;
-    public ArrayList<Modules> modules;
+    public ArrayList<Modules> modulesList;
 
 
     public Student(String name, int age, DateTime dob, int studentID) {
@@ -57,16 +57,16 @@ public class Student {
     }
 // set modules and set courses
     public ArrayList<Modules> getModuleList() {
-        return sModuleList;
+        return modulesList;
     }
-    public void setModuleList(ArrayList<Modules> sModuleList) {
-        this.sModuleList = sModuleList;
+    public void setModuleList(ArrayList<Modules> modulesList) {
+        this.modulesList = modulesList;
     }
     public Programme getCourses() {
-        return sCourses;
+        return courses;
     }
-    public void setCourses(Programme sCourses) {
-        this.sCourses = sCourses;
+    public void setCourses(Programme courses) {
+        this.courses = courses;
     }
 
 }
