@@ -1,4 +1,4 @@
-package org.example;
+/**package org.example;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -27,4 +27,4 @@ public class LecturerTest {
         assertEquals("Sean21", newLecturer.getUsername());
     }
 
-}
+}**/
