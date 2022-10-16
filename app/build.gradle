@@ -4,6 +4,16 @@
 
 plugins {
     id 'software.eng.assignment.java-application-conventions'
+    id 'java'
+    id 'war'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    maven { url 'https://jitpack.io' }
 }
 
 dependencies {
@@ -16,4 +26,8 @@ dependencies {
 application {
     // Define the main class for the application.
     mainClass = 'software.eng.assignment.app.App'
+}
+
+test{
+    useJUnitPlatform()
 }
