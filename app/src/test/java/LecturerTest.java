@@ -1,4 +1,4 @@
-/**package org.example;
+package org.example;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -18,13 +18,13 @@ public class LecturerTest {
 
     @BeforeEach
     void setUp() {
-        newLecturer = new Lecturer("Professor", 21, new DateTime(2001,10,02,0,0,0,0), 12345);
+        newLecturer = new Lecturer("ProfSean", 30, new DateTime(2001,10,02,0,0,0,0), 12345);
     }
-
+    //getUsername test for taskA
     @Test
     @DisplayName("Check correct username is generated")
     void testUsernameGeneration() {
-        assertEquals("Professor55", newLecturer.getUsername());
+        assertEquals("ProfSean30", newLecturer.getUsername());
     }
 
-}**/
+}

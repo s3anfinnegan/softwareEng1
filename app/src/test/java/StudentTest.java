@@ -18,10 +18,9 @@ public class StudentTest {
 
     @BeforeEach
     void setUp() {
-      //  student1 = new Student("Sean", 21, 12345,  new DateTime("2001-10-02-T00:00:00.000Z"));
           newStudent = new Student("Sean", 21, new DateTime(2001,10,02,0,0,0,0), 12345);
     }
-
+//getUsername test for taskA
     @Test
     @DisplayName("Check correct username is generated")
     void testUsernameGeneration() {

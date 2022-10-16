@@ -36,9 +36,7 @@ public class Student {
     public void setStudentID(int studentID) {
         this.studentID = studentID;
     }
-    //public void setUsername(String name, int age) {
-        //this.username= name.concat(Integer.toString(age));
-    //}
+
 
     public String getName() {
         return name;
